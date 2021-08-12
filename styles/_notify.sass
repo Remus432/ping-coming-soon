@@ -1,0 +1,46 @@
+.ping__notify
+  display: flex
+  align-items: center
+  justify-content: center
+  width: 50%
+  margin: auto
+
+  &-group
+    position: relative
+    flex: 10
+
+  &-email
+    border-radius: 15px
+    border: 1px solid $pale-blue
+    border-radius: 25px
+    padding: 1.5rem 2rem
+    width: 100%
+
+  &-btn
+    border-radius: 35px
+    background-color: $blue
+    border: none
+    box-shadow: 0 5px 5px rgba($blue, .2)
+    color: #fff
+    cursor: pointer
+    flex: 3
+    padding: 1.5rem 2rem
+    margin-left: 2rem
+    transition: all ease-in-out .5s
+
+    &:hover
+      background-color: lighten($blue, 10%)
+
+// Warning Message
+
+.message
+  color: $light-red
+  font-size: 1.5rem
+  position: absolute
+  left: 15px
+  bottom: -25px
+  width: 100%
+  font-style: italic
+
+.warning 
+  border: 1px solid $light-red
